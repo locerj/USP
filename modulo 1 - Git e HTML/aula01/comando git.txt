@@ -1,0 +1,16 @@
+git init - 
+git status -  mostra a branch e os arquivos que estão e não estão no stanging
+git add . - adicionas todos os arquivos modificados no staging
+git add <nome do arquivo> - adiciona arquivo no staging
+git log -  mostra o histórico da branch - q para sair e espaço para mostrar a   próxima pagina
+git branch - mostra as branchs
+git branch <nome da branch> cria uma branch
+git checkout <noma da branch> - troca a branch
+git checkout -b <nome da branch> - cria uma branch e troca para ela
+git reset - tira arquivo de do staging
+git merge <nome da branch> - junta a branch local com outra branch
+git rebase - junta a branch, sem criar outo commit
+git clone 
+git fetch
+git pull
+git push

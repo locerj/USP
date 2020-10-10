@@ -1,0 +1,20 @@
+Atributos de lista ordenada
+-start- escolhe a numeração da lista inicia
+-reverse - coloca a numeração ao contrário
+-type -  mudar a lista de numero para letra ou numero romano
+ex: a - ordem alfabetica letra minuscula
+    A - ordem alfabetica letra maiuscula
+    i - alg romanos minusculo
+    I - alg romanos maiusculo
+    1 - padrão
+
+Lista de definição
+
+ex:
+<dl>
+    <dt>preço varejo</dt>
+    <dd>2,96</dd>
+    <dt>preço atacado</dt>
+    <dd>10uni 16,50</dt>
+</dl>
+
