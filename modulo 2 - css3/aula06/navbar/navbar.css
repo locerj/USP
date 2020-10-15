@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+.navbar {
+    background-color: #fff;
+    text-align: right;
+    padding-right: 100px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin: auto 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fc6d6c;
+    font-weight: bold;
+}
