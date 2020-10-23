@@ -1,0 +1,43 @@
+
+* {
+    font-size: 24px;
+}
+
+
+
+.dropdown button {
+    border: none;
+    background-color: #406c6b;
+    color: #fff;
+    padding: 8px 24px;
+  }
+  
+  .dropdown-list {
+    border: 1px solid #000;
+    
+  }
+  
+  .dropdown-item {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #eaeaea;
+  }
+
+  .dropdown-list {
+    position: absolute;
+    min-width: 60px;
+    background-color: #fff;
+    display: none;
+  }
+
+  .dropdown {
+      position: relative;
+   
+  }
+
+  .dropdown:hover .dropdown-list {
+      display: block;
+  }

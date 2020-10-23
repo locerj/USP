@@ -1,0 +1,15 @@
+.floatbutton {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 10000px;
+    border: none;
+    background-color: #243aaa;
+    cursor: pointer;
+  }
+  
+  .floatbutton:focus {
+    outline: none;
+    bottom: 50px;
+    right: 50px;
+  }
