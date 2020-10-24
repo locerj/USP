@@ -1,0 +1,61 @@
+escaping 
+ex: let text = "qualquer testo\"";
+---------------------------------------------
+escrevendo variavel na saida
+$(variavel) com apostrofo e não aspas
+ex: 
+let amount = 89;
+let text= 'michelle recebeu cheque de $(amount) mil';
+----------------------------------------------
+typeof ver o tipo da variavel
+ex: 
+typeof(variavel);
+-----------------------------------------------
+string.substring(start, end);
+ex:
+string.substring(2, 3);
+-----------------------------------------------
+.concat
+concatenas strings em outra string
+ex:
+string.concat('mais texto');
+------------------------------------------------
+int:
+toFixed()
+diz quantas casas decimais iram aparecer e arredonda
+ex:
+conta = 0.1 * 0.2;
+conta.toFixed(2);
+----------------------------------------------------
+converter string para number
+conta = number;
+-------------------------------------
+object:
+ex:
+let product = {
+    name: "bota",
+    price: 10.45,
+    discount: 0.3,
+};
+
+Object.freeze = não deixa mudar o conteúdo da variavel
+
+acessar propriedades do objeto
+ex: product.name;
+ou usando o nome da propriedades
+ex: product['bota'];
+-------------------------------------
+undefined:
+---------------
+aula 02
+
+string.lenth; mostra o tamanho da string;
+-----------------------------------------------
+controle de fluxo 
+if:
+ex: if (condição){
+    bloco 1
+}
+
+if ternario
+ex: condição ? true : false;
