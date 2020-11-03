@@ -10,11 +10,13 @@
     <h1>HTML + JS Snake</h1>
     <table id="board"></table>
 
+    <script src="./js/snake.js"></script>
     <script src="./js/board.js"></script>
     <script>
-        let board = createBoard();
-        document.getElementById('board').innerHTML = board.render();
-        console.log(board.render());
+        let board = createBoard(document);
+        let snake = createSnake(board);
+        board.render();
+        snake.spawn();
     </script>
 </body>
 </html>
