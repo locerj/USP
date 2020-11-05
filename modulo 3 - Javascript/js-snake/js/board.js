@@ -16,8 +16,13 @@ let createBoard = (document, size = 20) => {
     board.renderSnake = (snake) => {
         let headSquare = document.getElementById(`${snake.position.y}:${snake.position.x}`
         );
-
         headSquare.className = "snakeHead";
-    };
+
+        //tail
+        snake.tail.forEach((tail) => {
+            let tailSquare = document.getElementById(`${tail.x}:${tail.y}`);
+            tailSquare.className = "snakeTail";
+          });
+        };
     return board;
 };
